@@ -2455,7 +2455,7 @@ function loadGuns() {
             itemInputBox.setAttribute("max", "99");
         }
 
-        if(guns[i].name == "FAMAS F1" || guns[i].name == "HK MP7A1" || guns[i].name == "TAC-338" || guns[i].name == "Silver Baller") {
+        if (guns[i].name == "FAMAS F1" || guns[i].name == "HK MP7A1" || guns[i].name == "TAC-338" || guns[i].name == "Silver Baller" || guns[i].name == "MP-40") {
             itemContainer.style.backgroundImage = "url('images/blueprint.png')";
         }
         
